@@ -1,0 +1,92 @@
+@import url(./node_modules/normalize.css/normalize.css);
+
+:root{
+    --yellow-color: #FBD784;
+}
+
+#app{
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 65px 80px;
+    justify-content: space-between;
+}
+
+.header__content{
+    display: flex;
+}
+.header__nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.main__content{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('//public/HG.png');
+    /* background-image: url('./public/BG\ Hero.png'); */
+    object-fit:fill;
+}
+.personal-acc{
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+}
+.title{
+    display: flex;
+    position: absolute;
+    padding: 200px 500px;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    color: white;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 1462px;
+}
+
+.page-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page-content__title{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    font-size:  24px;
+    color: var(--yellow-color);
+
+}
+.page-content__title::before{
+    content: "";
+    width: 70px;
+    height: 2px;
+    background-color: var(--yellow-color);
+    position: absolute;
+    top: 12px;
+    left: -80px;
+}
+.page-content__subtitle{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    letter-spacing: .5rem;
+    font-size: 36px;
+}
