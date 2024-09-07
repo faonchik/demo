@@ -109,3 +109,46 @@
     margin-left: 450px;
     margin-top: -900px;
 }
+
+.page__section_header {
+    display: grid;
+    padding: 50px 310px;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+    letter-spacing: .6rem;
+    align-items: end;
+}
+
+.page__section_subtitle {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    font-size:  24px;
+    color: var(--yellow-color);
+    font-family: ABeeZee;
+    letter-spacing: .3rem;
+    margin-top: -227px;
+    margin-right: 500px;
+
+}
+
+.page__section_subtitle::before {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background-color: var(--yellow-color);
+    position: absolute;
+    top: 12px;
+    left: -80px;
+
+}
+
+.page__section_text {
+    padding: 50px 310px;
+    letter-spacing: .2rem;
+    margin-top: 120px;
+
+}
