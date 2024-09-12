@@ -150,5 +150,41 @@
     padding: 50px 310px;
     letter-spacing: .2rem;
     margin-top: 120px;
+    letter-spacing: .3rem;
+
+}
+
+.page-seletion_subtitl__arrow {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    font-size:  24px;
+    color: var(--yellow-color);
+    font-family: ABeeZee;
+    letter-spacing: .3rem;
+    margin-top: -35px;
+    margin-right: 580px;
+}
+
+.page-seletion_subtitl__arrow::before {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background-color: var(--yellow-color);
+    position: absolute;
+    top: 12px;
+    left: -80px;
+}
+
+.Equipment {
+    margin-top: -450px;
+    margin-right: 900px;
+    opacity: 0.10; 
+    color: white; 
+    font-size: 240px; 
+    font-family: Roboto; 
+    font-weight: 700; 
+    line-height: 240px; 
+    word-wrap: break-word
 
 }
